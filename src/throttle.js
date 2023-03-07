@@ -1,8 +1,3 @@
-/**
- * 节流：使用时间戳
- * @param {Function} fn
- * @param {Number} delay
- */
 function throttle(fn, delay) {
   let timer = 0;
   return (...rest) => {
