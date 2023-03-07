@@ -1,4 +1,4 @@
-// 实现一个new操作符
+// new operator
 function myNew(fn, ...rest) {
   const obj = Object.create(fn.prototype);
   const res = fn.call(obj, ...rest);
