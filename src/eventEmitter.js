@@ -1,4 +1,4 @@
-// 消息订阅与发布
+// publish and describe message
 class EventEmitter {
   constructor() {
     this.events = {};
