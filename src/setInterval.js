@@ -1,4 +1,4 @@
-// 使用setTimeout实现setInterval
+// use setTimeout implement setInterval
 function mySetInterval(fn, delay) {
   let timer = null;
   function interval() {
