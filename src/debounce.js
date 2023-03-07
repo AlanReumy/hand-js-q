@@ -1,8 +1,3 @@
-/**
- * 防抖
- * @param {Function} fn
- * @param {Number} delay
- */
 function debounce(fn, delay) {
   let timer;
   return (...rest) => {
